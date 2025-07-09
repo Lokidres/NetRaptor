@@ -1,0 +1,54 @@
+# NetRaptor - Advanced Wireless Penetration Testing Tool
+# Python Dependencies
+# Author: Lokidres
+# GitHub: https://github.com/Lokidres/NetRaptor
+
+# Core Python packages (most are in standard library)
+# This tool primarily uses Python standard library modules:
+# - subprocess: For executing system commands
+# - json: For JSON report generation  
+# - csv: For parsing airodump-ng CSV output
+# - argparse: For command-line argument parsing
+# - datetime: For timestamps and time tracking
+# - collections: For data structures (defaultdict)
+# - tempfile: For temporary file management
+# - hashlib: For hashing operations
+# - signal: For signal handling (Ctrl+C)
+# - sys, os: For system operations
+# - time: For timing and delays
+# - re: For regular expressions
+
+# No additional Python packages required!
+# This tool is designed to work with Python 3.7+ standard library only.
+
+# However, if you want to extend the tool with additional features,
+# you might consider these optional packages:
+
+# Optional: For enhanced reporting and visualization
+# matplotlib>=3.5.0
+# pandas>=1.3.0
+# plotly>=5.0.0
+
+# Optional: For advanced networking features  
+# scapy>=2.4.5
+# netaddr>=0.8.0
+
+# Optional: For database integration
+# sqlite3 (included in Python standard library)
+
+# Note: The main dependencies are SYSTEM PACKAGES, not Python packages:
+# - aircrack-ng suite (airmon-ng, airodump-ng, aireplay-ng, aircrack-ng)
+# - reaver (for WPS attacks)
+# - wash (WPS scanner, part of reaver)
+# - hostapd (for AP functionality)
+# - dnsmasq (for DHCP functionality)
+# - bluetooth tools (bluetoothctl, hcitool)
+# - hcxtools (optional, for advanced handshake handling)
+
+# Install system dependencies with:
+# Ubuntu/Debian: sudo apt-get install aircrack-ng reaver hostapd dnsmasq bluetooth bluez-utils hcxtools
+# Fedora/RHEL:   sudo dnf install aircrack-ng reaver hostapd dnsmasq bluez-tools hcxtools  
+# Arch Linux:    sudo pacman -S aircrack-ng reaver hostapd dnsmasq bluez-utils hcxtools
+
+# Python version requirement
+# python>=3.7
